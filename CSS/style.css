@@ -1,0 +1,143 @@
+/* Importando fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Resetando site */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Configurando background principal do site */
+body {
+  background-image: url(/IMAGENS/01\ -\ background-principal.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Cabeçalho do site */
+header {
+  width: 1800px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+#header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Imagem logo no cabeçalho */
+#header-box img {
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+}
+
+/* Botão de login no cabeçalho */
+#header-box a {
+  background-color: #1f2d52;
+  height: 40px;
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFDFD;
+  margin-right: 20px;
+}
+
+#header-box a:hover {
+  background-color: #2B4C8C;
+}
+
+/* Container do formulário completo */
+#container-form {
+  position: relative;
+  width: 1197px;
+  height: 720px;
+  border-radius: 8px;
+  background-color: #f7efe0;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* Box do formulario de preenchimento de dados */
+#container-form #box-formulario {
+  position: relative;
+  top: 50px;
+  left: 80px;
+  width: 606px;
+  height: 610px;
+}
+
+/* box da imagem do formulario Totoro */
+#container-form #box-imgForm img {
+  position: absolute;
+  left: 760px;
+  border-radius: 0px 8px 8px 0;
+  width: 439px;
+  height: 720px;
+}
+
+/* Titulo principal do formulário */
+#container-form #box-formulario h1 {
+  font-size: 40px;
+  color: #274488;
+  margin-bottom: 20px;
+}
+
+/* formulário */
+#container-form #box-formulario #formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Configuração de label e inputs do formulário */
+#container-form #box-formulario #formulario label, input {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#container-form #box-formulario #formulario label {
+  margin-bottom: 10px;
+}
+
+#container-form #box-formulario #formulario input {
+  font-size: 16px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+#container-form #box-formulario #formulario input:focus {
+  border-bottom: 1px solid #274488;
+}
+
+#container-form #box-formulario a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 20px auto 0 auto;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #f9cf55;
+}
+
+#container-form #box-formulario a:hover {
+  background-color: #fabf0d;
+}
+
+
+
+
