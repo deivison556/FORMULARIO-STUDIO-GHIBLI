@@ -13,11 +13,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Poppins', sans-serif;
+  height: 100vh;
 }
 
 /* Cabeçalho do site */
 header {
-  width: 1800px;
+  width: 1600px;
   height: 80px;
   margin: 0 auto;
 }
@@ -135,9 +136,123 @@ header {
 }
 
 #container-form #box-formulario a:hover {
-  background-color: #fabf0d;
+  background-color: #faa70d;
 }
 
+/* Responsivo do site */
+@media screen and (max-width: 1440px) {
+/* Cabeçalho do site */
+header {
+  width: 1300px;
+}
 
+/* Container do formulário completo */
+#container-form {
+  position: relative;
+  left: -80px;
+  width: 1000px;
+  height: 650px;
+  margin-top: 20px;
+}
 
+/* Box do formulario de preenchimento de dados */
+#container-form #box-formulario {
+  height: 590px;
+}
+
+/* box da imagem do formulario Totoro */
+#container-form #box-imgForm img {
+  left: 760px;
+  width: 439px;
+  height: 650px;
+}
+
+/* Titulo principal do formulário */
+#container-form #box-formulario h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+/* Configuração de label e inputs do formulário */
+#container-form #box-formulario #formulario label, input {
+  font-size: 18px;
+}
+
+#container-form #box-formulario #formulario label {
+  margin-bottom: 10px;
+}
+
+#container-form #box-formulario #formulario input {
+  margin-bottom: 15px;
+}
+}
+
+/* Telas de 1040px */
+@media screen and (max-width: 1040px) {
+/* Cabeçalho do site */
+header {
+  width: 900px;
+}
+
+/* Container do formulário completo */
+#container-form {
+  position: relative;
+  left: 0px;
+  width: 800px;
+  height: 600px;
+  margin-top: 20px;
+}
+
+/* Box do formulario de preenchimento de dados */
+#container-form #box-formulario {
+  width: 450px;
+  height: 540px;
+  margin-left: -30px;
+}
+
+/* box da imagem do formulario Totoro */
+#container-form #box-imgForm img {
+  left: 550px;
+  width: 250px;
+  height: 600px;
+}
+
+#container-form #box-formulario #formulario input {
+  margin-bottom: 10px;
+}
+}
+
+/* Telas de 834px */
+@media screen and (max-width: 834px) {
+/* Cabeçalho do site */
+header {
+  width: 700px;
+}
+
+body {
+  background-position-x: -550px;
+}
+
+/* Container do formulário completo */
+#container-form {
+  width: 700px;
+  margin-top: 100px;
+}
+
+/* Box do formulario de preenchimento de dados */
+#container-form #box-formulario {
+  width: 380px;
+  margin-left: -40px;
+}
+
+/* box da imagem do formulario Totoro */
+#container-form #box-imgForm img {
+  left: 450px;
+  width: 250px;
+}
+
+#container-form #box-formulario #formulario input {
+  margin-bottom: 10px;
+}
+}
 
