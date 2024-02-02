@@ -256,3 +256,186 @@ body {
 }
 }
 
+/* Telas de 428px */
+@media screen and (max-width: 428px) {
+/* Cabeçalho do site */
+header {
+  width: 400px;
+  height: 60px;
+}
+
+
+/* Imagem logo no cabeçalho */
+#header-box img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Botão de login no cabeçalho */
+#header-box a {
+  height: 35px;
+  width: 140px;
+  padding: 8px;
+}
+
+/* Container do formulário completo */
+#container-form {
+  width: 380px;
+  margin-top: 50px;
+}
+
+/* Box do formulario de preenchimento de dados */
+#container-form #box-formulario {
+  width: 320px;
+  margin-left: -50px;
+}
+
+/* box da imagem do formulario Totoro */
+#container-form #box-imgForm img {
+  display: none;
+}
+
+#container-form #box-formulario #formulario input {
+  margin-bottom: 10px;
+}
+}
+
+/* Telas de 390px */
+@media screen and (max-width: 390px) {
+/* Cabeçalho do site */
+header {
+  width: 350px;
+}
+
+/* Imagem logo no cabeçalho */
+#header-box img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Botão de login no cabeçalho */
+#header-box a {
+  height: 35px;
+  width: 140px;
+  padding: 8px;
+}
+
+/* Container do formulário completo */
+#container-form {
+  width: 350px;
+  height: 570px;
+  margin-top: 10px;
+}
+
+/* Box do formulario de preenchimento de dados */
+#container-form #box-formulario {
+  width: 290px;
+  margin-left: -50px;
+}
+
+/* box da imagem do formulario Totoro */
+#container-form #box-imgForm img {
+  display: none;
+}
+
+/* Titulo principal do formulário */
+#container-form #box-formulario h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+/* Configuração de label e inputs do formulário */
+#container-form #box-formulario #formulario label, input {
+  font-size: 16px;
+}
+
+/* Botão do formulário para criar conta */
+#container-form #box-formulario a {
+  font-size: 16px;
+  margin: 10px auto 0 auto;
+  width: 150px;
+}
+}
+
+/* Telas de 375px */
+@media screen and (max-width: 375px) {
+/* Cabeçalho do site */
+header {
+  width: 330px;
+}
+
+/* Container do formulário completo */
+#container-form {
+  width: 350px;
+  height: 550px;
+  margin-top: 10px;
+}
+
+/* Box do formulario de preenchimento de dados */
+#container-form #box-formulario {
+  width: 290px;
+  margin-left: -50px;
+}
+
+/* Titulo principal do formulário */
+#container-form #box-formulario h1 {
+  position: relative;
+  top: -30px;
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+}
+
+/* Telas de 320px */
+@media screen and (max-width: 320px) {
+body {
+  background-position-x: 0px;
+  background-position: fixed;
+}
+
+/* Cabeçalho do site */
+header {
+  width: 300px;
+}
+
+/* Container do formulário completo */
+#container-form {
+  width: 300px;
+  height: 450px;
+  margin-top: 10px;
+}
+
+/* Box do formulario de preenchimento de dados */
+#container-form #box-formulario {
+  width: 240px;
+  margin-left: -50px;
+}
+
+/* Titulo principal do formulário */
+#container-form #box-formulario h1 {
+  position: relative;
+  top: -30px;
+  font-size: 25px;
+  margin-bottom: -20px;
+}
+
+/* Configuração de label e inputs do formulário */
+#container-form #box-formulario #formulario label, input {
+  font-size: 14px;
+}
+
+#container-form #box-formulario #formulario label {
+  margin-bottom: 10px;
+}
+
+#container-form #box-formulario #formulario input {
+  margin-bottom: 5px;
+}
+
+/* Botão do formulário para criar conta */
+#container-form #box-formulario a {
+  font-size: 14px;
+  margin: 10px auto 0 auto;
+  width: 120px;
+}
+}
