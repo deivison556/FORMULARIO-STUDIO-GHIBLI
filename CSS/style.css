@@ -17,7 +17,6 @@ body {
   font-family: 'Poppins', sans-serif;
   width: 100%;
   height: 100vh;
-  
 }
 
 /* Cabeçalho do site */
@@ -363,7 +362,7 @@ header {
 #container-form {
   width: 350px;
   height: 570px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 /* Box do formulario de preenchimento de dados */
@@ -491,7 +490,6 @@ header {
 body {
   background-position-x: 0px;
   background-position: fixed;
-  height: 100vh;
 }
 
 /* Cabeçalho do site */
@@ -517,7 +515,7 @@ header #header-box img {
 /* Container do formulário completo */
 #container-form {
   width: 280px;
-  height: 450px;
+  height: 460px;
   margin-top: 20px;
 }
 
@@ -526,7 +524,6 @@ header #header-box img {
   width: 240px;
   height: 395px;
   margin-left: -50px;
-  background-color: red;
 }
 
 /* Titulo principal do formulário */
@@ -553,7 +550,7 @@ header #header-box img {
 /* Botão do formulário para criar conta */
 #container-form #box-formulario a {
   font-size: 14px;
-  margin: 5px auto 0 auto;
+  margin: 10px auto 0 auto;
   width: 120px;
 }
 }
