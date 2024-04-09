@@ -112,6 +112,7 @@ header {
 
 #container-form #box-formulario #formulario input {
   font-size: 16px;
+  text-transform: none;
   margin-bottom: 20px;
   outline: none;
   border: none;
