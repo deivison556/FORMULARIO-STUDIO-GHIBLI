@@ -59,7 +59,7 @@
     left: 0px;
     width: 800px;
     height: 600px;
-    margin-top: 80px;
+    margin-top: 20px;
   }
   
   /* Box do formulario de preenchimento de dados */
@@ -81,23 +81,14 @@
   }
   }
   
-  /* Telas de 1040px */
-  @media screen and (max-width: 1040px) {
+  /* Telas de 1024px */
+  @media screen and (max-width: 1024px) {
   /* Cabeçalho do site */
   header {
     width: 900px;
     margin-top: 20px;
   }
-  
-  /* Container do formulário completo */
-  #container-form {
-    position: relative;
-    left: 0px;
-    width: 800px;
-    height: 600px;
-    margin-top: 200px;
-  }
-  
+
   /* Box do formulario de preenchimento de dados */
   #container-form #box-formulario {
     width: 450px;
@@ -125,7 +116,7 @@
   }
   
   body {
-    background-position-x: -550px;
+    background-attachment: fixed;
   }
   
   /* Container do formulário completo */
@@ -175,7 +166,7 @@
   /* Container do formulário completo */
   #container-form {
     width: 380px;
-    margin-top: 80px;
+    margin-top: 20px;
   }
   
   /* Box do formulario de preenchimento de dados */
@@ -194,7 +185,7 @@
   }
   }
   
-  /* Telas de 428px */
+  /* Telas de 414px */
   @media screen and (max-width: 414px) {
   /* Cabeçalho do site */
   header {
@@ -218,7 +209,6 @@
   #container-form {
     width: 350px;
     height: 570px;
-    margin-top: 50px;
   }
   
   /* Box do formulario de preenchimento de dados */
@@ -355,13 +345,12 @@
   
   #header-box {
     display: flex;
-    align-items: center;
     justify-content: flex-end;
-    margin-top: 10px;
+    padding-top: 5px;
   }
   
   header #header-box img {
-    display: none;
+  display: none;
   }
   
   #header-box a {
